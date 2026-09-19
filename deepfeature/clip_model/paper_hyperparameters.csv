@@ -1,0 +1,11 @@
+Loss,Dataset,Image Size,Learning Rate,RandAug N,RandAug M,Label Smoothing,Batch Size
+Softmax,mnist,224,0.1,1,8,0,128
+Softmax,svhn,224,0.1,1,18,0,128
+Softmax,cifar-10-10,224,0.1,1,6,0,128
+CPNLoss,cifar-10-10,224,0.1,1,6,0,128
+Softmax,cifar-100,224,0.1,1,6,0,128
+Softmax,cifar-10-100,224,0.1,1,6,0,128
+Softmax,tinyimagenet,224,0.01,1,9,0.9,128
+Softmax,imagenet1k,224,0.01,1,9,0.9,128
+Softmax,cub,224,0.001,2,30,0.3,32
+Softmax,aircraft,224,0.001,2,15,0.2,32
